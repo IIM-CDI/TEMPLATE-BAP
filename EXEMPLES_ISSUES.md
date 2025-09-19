@@ -9,7 +9,7 @@ Ce fichier contient des exemples d'issues bien rédigées pour chaque type de t�
 **Description :**
 Planifier le premier sprint du projet BAP en définissant les objectifs, répartissant les tâches et fixant les deadlines pour l'équipe.
 
-**Durée :** Normal (2-6h)
+**Durée :** Normal (30 min - 2h)
 **Difficulté :** Simple
 **Story Points :** 3
 **Date limite :** jeudi 26/09/2025
@@ -29,7 +29,7 @@ Planifier le premier sprint du projet BAP en définissant les objectifs, répart
 **Description :**
 Développer la page d'accueil de l'application avec un design responsive qui s'adapte aux mobiles et tablettes.
 
-**Durée :** Long (> 6h)
+**Durée :** Long (> 2h)
 **Difficulté :** Moyen
 **Story Points :** 8
 **Date limite :** vendredi 27/09/2025
@@ -53,7 +53,7 @@ Développer la page d'accueil de l'application avec un design responsive qui s'a
 **Description :**
 Créer les endpoints d'authentification pour permettre aux utilisateurs de s'inscrire, se connecter et gérer leur session.
 
-**Durée :** Long (> 6h)
+**Durée :** Long (> 2h)
 **Difficulté :** Dur
 **Story Points :** 13
 **Type :** API/Endpoints
@@ -83,7 +83,7 @@ Créer les endpoints d'authentification pour permettre aux utilisateurs de s'ins
 **Description :**
 Créer un guide complet d'installation du projet pour permettre à de nouveaux développeurs de configurer rapidement l'environnement.
 
-**Durée :** Normal (2-6h)
+**Durée :** Normal (30 min - 2h)
 **Difficulté :** Simple
 **Story Points :** 3
 **Type :** Guide d'installation
@@ -114,7 +114,7 @@ Créer un guide complet d'installation du projet pour permettre à de nouveaux d
 **Description :**
 Implémenter la lecture d'un capteur de température DHT22 avec un Arduino et transmettre les données via WiFi.
 
-**Durée :** Normal (2-6h)
+**Durée :** Normal (30 min - 2h)
 **Difficulté :** Moyen
 **Story Points :** 5
 **Type :** Capteurs/Sensors
@@ -161,15 +161,15 @@ Implémenter la lecture d'un capteur de température DHT22 avec un Arduino et tr
 ### 📊 Guide d'estimation
 
 **Story Points (complexité globale) :**
-- 1-2 : Très simple, 1-2h max
-- 3-5 : Simple à moyen, demi-journée
-- 8 : Complexe, 1 jour complet
-- 13 : Très complexe, plusieurs jours
+- 1-2 : Très simple, < 30 min
+- 3-5 : Simple à moyen, 30 min - 2h
+- 8 : Complexe, > 2h mais reste dans la journée
+- 13 : Très complexe, plusieurs sessions de travail
 
 **Durée vs Difficulté :**
-- Rapide + Simple = petite correction
-- Normal + Moyen = développement standard
-- Long + Dur = fonctionnalité majeure avec recherche
+- Rapide + Simple = petite correction, ajout mineur
+- Normal + Moyen = développement standard d'une fonctionnalité
+- Long + Dur = fonctionnalité majeure nécessitant recherche
 
 **Conseils par domaine :**
 - **Gestion** : Focus sur les livrables et deadlines

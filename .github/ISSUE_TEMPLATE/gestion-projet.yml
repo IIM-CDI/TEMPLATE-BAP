@@ -26,9 +26,9 @@ body:
       label: "⏱️ Durée estimée"
       description: "Combien de temps cette tâche devrait-elle prendre ?"
       options:
-        - "Rapide (< 2h)"
-        - "Normal (2-6h)"
-        - "Long (> 6h)"
+        - "Rapide (< 30 min)"
+        - "Normal (30 min - 2h)"
+        - "Long (> 2h)"
     validations:
       required: true
 

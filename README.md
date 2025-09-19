@@ -37,10 +37,9 @@ Ce template est votre point de départ pour comprendre et maîtriser :
 3. Remplissez tous les champs (durée, difficulté, story points)
 4. L'issue apparaîtra automatiquement dans votre projet !
 
-### 🎯 Étape 4 : Organiser votre semaine
-- **Lundi** : Planifiez vos tâches dans "Pour jeudi prochain"
-- **Chaque matin** : Déplacez vos priorités vers "TO DO aujourd'hui"  
-- **En développant** : Passez les tâches en "En cours"
+### 🎯 Étape 4 : Organiser votre journée
+- **Début de matiné** : Planifiez vos tâches dans "Pour jeudi prochain" et pour aujourd'hui
+- **Pendant la matiné** : Déplacez vos tickets au fur et à mesure de l'avancement
 - **Avant de finir** : Demandez une review puis marquez "Fini aujourd'hui"
 
 ---
@@ -84,7 +83,7 @@ GitHub Projects est l'outil intégré à GitHub qui vous permet de gérer vos pr
 
 🎨 **Custom Fields pré-configurés :**
 - **📊 Story Points** : Estimation de la complexité globale
-- **⏱️ Durée** : Rapide (< 2h) | Normal (2-6h) | Long (> 6h)
+- **⏱️ Durée** : Rapide (< 30 min) | Normal (30 min - 2h) | Long (> 2h)
 - **🔧 Difficulté technique** : Simple | Moyen | Dur
 - **📅 Dates** : Date de début et de fin pour le suivi
 
@@ -128,16 +127,19 @@ Utilisez les labels spécifiques aux BAP :
 ### 💡 Exemples concrets d'utilisation
 
 **📊 Story Points - Comment estimer ?**
+
+Les story points fonctionnent sur la base de la suite de Fibonacci et permettent d'estimer la complexité relative des tâches :
+
 ```
 1-2 points  : Petite correction, ajout simple
-3-5 points  : Fonctionnalité moyenne, quelques heures de travail  
+3-5 points  : Fonctionnalité moyenne, quelques heures de travail
 8-13 points : Grosse fonctionnalité, plusieurs jours de travail
 ```
 
 **⏱️ Exemple d'estimation de durée :**
 ```
-"Rapide" : Corriger une typo, ajouter un bouton
-"Normal" : Créer une page web, connecter un capteur
+"Rapide" : Corriger une typo, ajouter un bouton simple
+"Normal" : Créer une page web basique, connecter un capteur  
 "Long"   : Développer un système complet, intégration complexe
 ```
 
@@ -150,10 +152,9 @@ Utilisez les labels spécifiques aux BAP :
 
 **🎯 Exemple de workflow hebdomadaire :**
 ```
-Lundi    : Planification → "Pour jeudi prochain"
-Mardi    : Focus jour → "TO DO aujourd'hui" 
-Mercredi : Développement → "En cours"
-Jeudi    : Finalisation → "Review" puis "Fini aujourd'hui"
+Jeudi matin : Planification pour la journée
+Jeudi pendant la BAP : Focus jour → "TO DO aujourd'hui"
+Jeudi fin de BAP : Finalisation → "Review" puis "Fini aujourd'hui"
 ```
 
 ### 3. Les Milestones : Vos objectifs à court terme 🎯
@@ -272,12 +273,10 @@ jobs:
 
 ### Rapports utiles :
 
-```
 📋 Daily standup questions :
-1. Qu'est-ce que j'ai fait hier ?
-2. Qu'est-ce que je vais faire aujourd'hui ?
+1. Qu'est-ce que j'ai fait la semaine dernière ?
+2. Qu'est-ce que je vais faire cette semaine ?
 3. Y a-t-il des blocages ?
-```
 
 ---
 
@@ -321,7 +320,7 @@ Ce template évolue avec vos retours ! N'hésitez pas à :
 Besoin d'aide ? 
 - 💬 Posez vos questions en issue
 - 🤝 Demandez à vos camarades
-- 📧 Contactez vos formateurs
+- 📧 Contactez vos respos d'axes
 
 ---
 
@@ -331,4 +330,4 @@ Besoin d'aide ?
 
 ---
 
-*Ce template a été créé avec ❤️ pour les étudiants de 2ème année de code*
+*Ce template a été créé avec ❤️ pour les étudiants de 2ème année de code 🦐*
