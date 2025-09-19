@@ -11,7 +11,6 @@ Ce template est votre point de départ pour comprendre et maîtriser :
 - 🛠️ L'organisation du workflow de développement
 
 > 💡 **Note importante :** Le template de projet GitHub "BAP-Template-projet" est déjà configuré par l'organisation IIM-CDI. Vous n'avez qu'à l'utiliser, pas besoin de tout recréer !
-
 ---
 
 ## 🛠️ Comment utiliser ce template ?
