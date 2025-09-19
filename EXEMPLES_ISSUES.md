@@ -1,6 +1,6 @@
 # 📚 Exemples d'Issues BAP
 
-Ce fichier contient des exemples d'issues bien rédigées pour chaque type de tâche BAP.
+Ce fichier contient des exemples d'issues bien rédigées pour chaque type de tâche BAP. (après avoir pris connaisance de ce [guide de gestion de projet](README.md) et de la documentation sur les [exemples d'issues](EXEMPLES_ISSUES.md), vous pouvez supprimer ces deux fichiers).
 
 ## 📋 Exemple : Gestion de Projet
 
