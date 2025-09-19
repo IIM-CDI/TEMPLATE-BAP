@@ -1,0 +1,81 @@
+name: 🎨 Front-End
+description: Tâche liée à l'interface utilisateur et UX/UI
+title: "[FRONT] "
+labels: ["front-end"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎨 Nouvelle tâche Front-End
+        
+        Utilisez ce template pour toutes les tâches liées à l'interface utilisateur.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "📝 Description de la fonctionnalité"
+      description: "Décrivez la fonctionnalité à implémenter côté front-end"
+      placeholder: "Ex: Créer la page de connexion, ajouter un bouton de navigation..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: duree
+    attributes:
+      label: "⏱️ Durée estimée"
+      options:
+        - "Rapide (< 2h)"
+        - "Normal (2-6h)"
+        - "Long (> 6h)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulte
+    attributes:
+      label: "🔧 Difficulté technique"
+      options:
+        - "Simple"
+        - "Moyen" 
+        - "Dur"
+    validations:
+      required: true
+
+  - type: input
+    id: story-points
+    attributes:
+      label: "📊 Story Points"
+      placeholder: "Ex: 5"
+
+  - type: textarea
+    id: maquette
+    attributes:
+      label: "🎨 Maquette/Design"
+      description: "Ajoutez un lien vers la maquette ou décrivez l'apparence souhaitée"
+      placeholder: "Lien Figma, description du design, ou schéma..."
+
+  - type: textarea
+    id: technologies
+    attributes:
+      label: "🛠️ Technologies utilisées"
+      description: "Quelles technologies/frameworks seront utilisés ?"
+      placeholder: "HTML, CSS, JavaScript, React, Vue.js, etc."
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: "✅ Critères d'acceptance"
+      placeholder: |
+        - [ ] L'interface est responsive
+        - [ ] Les interactions fonctionnent correctement
+        - [ ] Le design respecte la maquette
+        - [ ] Tests utilisateur validés
+    validations:
+      required: true
+
+  - type: input
+    id: deadline
+    attributes:
+      label: "📅 Date limite"
+      placeholder: "Ex: vendredi 27/09/2025"

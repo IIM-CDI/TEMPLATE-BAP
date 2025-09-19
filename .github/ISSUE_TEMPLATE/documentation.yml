@@ -1,0 +1,99 @@
+name: 📚 Documentation
+description: Tâche liée à la documentation du projet
+title: "[DOC] "
+labels: ["documentation"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📚 Nouvelle tâche de Documentation
+        
+        Utilisez ce template pour toutes les tâches de documentation.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "📝 Description de la documentation"
+      description: "Quel type de documentation doit être créé ou mis à jour ?"
+      placeholder: "Ex: Rédiger le README, documenter l'API, créer un guide utilisateur..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: duree
+    attributes:
+      label: "⏱️ Durée estimée"
+      options:
+        - "Rapide (< 2h)"
+        - "Normal (2-6h)"
+        - "Long (> 6h)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulte
+    attributes:
+      label: "🔧 Difficulté technique"
+      options:
+        - "Simple"
+        - "Moyen" 
+        - "Dur"
+    validations:
+      required: true
+
+  - type: input
+    id: story-points
+    attributes:
+      label: "📊 Story Points"
+      placeholder: "Ex: 2"
+
+  - type: dropdown
+    id: type-doc
+    attributes:
+      label: "📋 Type de documentation"
+      options:
+        - "README.md"
+        - "Documentation API"
+        - "Guide utilisateur"
+        - "Documentation technique"
+        - "Commentaires code"
+        - "Guide d'installation"
+        - "Tutoriel"
+
+  - type: textarea
+    id: public-cible
+    attributes:
+      label: "👥 Public cible"
+      description: "À qui s'adresse cette documentation ?"
+      placeholder: "Développeurs, utilisateurs finaux, équipe projet, etc."
+
+  - type: textarea
+    id: contenu
+    attributes:
+      label: "📄 Contenu à couvrir"
+      description: "Quels sujets doivent être abordés ?"
+      placeholder: |
+        - Installation
+        - Configuration
+        - Utilisation
+        - Exemples
+        - FAQ
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: "✅ Critères d'acceptance"
+      placeholder: |
+        - [ ] Documentation claire et compréhensible
+        - [ ] Exemples de code inclus
+        - [ ] Captures d'écran si nécessaire
+        - [ ] Relecture par l'équipe
+    validations:
+      required: true
+
+  - type: input
+    id: deadline
+    attributes:
+      label: "📅 Date limite"
+      placeholder: "Ex: mercredi 25/09/2025"
