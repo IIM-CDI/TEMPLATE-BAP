@@ -1,6 +1,6 @@
 # 🚀 TEMPLATE-BAP - Guide de Gestion de Projet GitHub
 
-Salut les devs ! 👋 Bienvenue dans ce template spécialement conçu pour vos BAP. Ce repo va vous accompagner dans la découverte de la gestion de projet avec GitHub.
+Salut les devs ! 👋 Bienvenue dans ce template spécialement conçu pour vos BAP. Ce repo va vous accompagner dans la découverte de la gestion de projet avec GitHub. (Apres avoir lu les readME [README](README.md) et [EXEMPLES_ISSUES](EXEMPLES_ISSUES.md), n'hésitez pas à supprimer ces fichiers une fois que vous avez compris leur contenu !)
 
 ## 📚 Qu'est-ce que c'est ?
 
