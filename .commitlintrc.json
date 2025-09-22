@@ -1,5 +1,4 @@
 {
-  "extends": ["@commitlint/config-conventional"],
   "rules": {
     "type-enum": [
       2,
@@ -17,7 +16,9 @@
         "style",
         "test"
       ]
-    ]
+    ],
+    "type-empty": [2, "never"],
+    "subject-empty": [2, "never"]
   },
   "helpUrl": "https://www.conventionalcommits.org/"
 }
