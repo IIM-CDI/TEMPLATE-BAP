@@ -21,51 +21,5 @@ jobs:
         uses: wagoid/commitlint-github-action@v6
         with:
           configFile: '.commitlintrc.json'
-          token: ${{ secrets.GITHUB_TOKEN }}
           failOnWarnings: false
           helpURL: 'https://www.conventionalcommits.org/'
-
-      - name: 📝 Comment PR on failure
-        if: failure() && github.event_name == 'pull_request'
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const comment = `
-            ## ❌ Validation des messages de commit échouée
-            
-            Vos messages de commit ne respectent pas la convention [Conventional Commits](https://www.conventionalcommits.org/).
-            
-            ### Format attendu :
-            \`\`\`
-            type(scope): description
-            \`\`\`
-            
-            ### Types autorisés :
-            - **feat**: nouvelle fonctionnalité
-            - **fix**: correction de bug
-            - **docs**: documentation
-            - **style**: formatage, point-virgule manquant, etc.
-            - **refactor**: refactoring du code
-            - **test**: ajout ou modification de tests
-            - **chore**: maintenance, configuration, etc.
-            - **perf**: amélioration des performances
-            - **ci**: modifications des fichiers CI
-            - **build**: modifications du système de build
-            - **revert**: annulation d'un commit précédent
-            
-            ### Exemples valides :
-            - \`feat(auth): add user authentication\`
-            - \`fix(ui): correct button alignment\`
-            - \`docs: update README with installation steps\`
-            - \`refactor(api): simplify user service\`
-            
-            Veuillez modifier vos messages de commit pour qu'ils respectent cette convention.
-            `;
-            
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: comment
-            });
