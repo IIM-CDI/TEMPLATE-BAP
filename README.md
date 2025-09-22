@@ -30,6 +30,20 @@ Ce template est votre point de départ pour comprendre et maîtriser :
 - ✅ Les custom fields (Story Points, Durée, Difficulté, Dates)
 - ✅ Les vues et filtres adaptés
 
+### 🔗 Lier automatiquement votre repository au GitHub Project
+
+Pour que toutes les issues et pull requests de votre repo soient ajoutées automatiquement à votre projet :
+
+1. Ouvrez votre GitHub Project.
+2. Cliquez sur **Workflows** (en haut à droite).
+3. Dans le menu à gauche, sélectionnez **Auto-add to project**.
+4. Cliquez sur les trois petits points (⋯) à droite de la règle.
+5. Dans les **Filters**, choisissez le repository correspondant à votre projet.
+6. Dans les critères, mettez : `is:issue,pr is:open`
+7. Cliquez sur **Save and turn on**.
+
+Ainsi, toutes les issues et PR ouvertes de votre repo seront ajoutées automatiquement à votre tableau de projet !
+
 ### 📝 Étape 3 : Créer vos premières issues
 1. Cliquez sur "New issue" dans votre repository
 2. Choisissez le template approprié (gestion, front-end, back-end, etc.)
