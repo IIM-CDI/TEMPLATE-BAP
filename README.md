@@ -441,8 +441,6 @@ Chaque PR utilise automatiquement ce template :
 
 Pour aller plus loin, consultez :
 
-- **`CONTRIBUTING.md`** : Guide complet des conventions de commits et workflow détaillé
-- **`EXEMPLES_ISSUES.md`** : Templates d'issues détaillés par domaine (gestion, front, back, doc, IoT)
 - **`.github/ADMIN_SETUP.md`** : Guide de configuration pour les administrateurs
 - **`.github/BRANCH_PROTECTION.md`** : Configuration détaillée de la protection des branches
 - **`.github/pull_request_template.md`** : Template automatique pour les Pull Requests
