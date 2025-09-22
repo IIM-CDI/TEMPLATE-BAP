@@ -122,9 +122,31 @@ Si vos commits ne respectent pas la convention, GitHub Actions vous le signalera
 - 🔍 [Vérifiez vos commits dans l'onglet Actions de GitHub](https://github.com/IIM-CDI/TEMPLATE-BAP/actions)
 - 💬 Contactez l'équipe en cas de question
 
+### Protection de la branche main 🔒
+
+La branche `main` est protégée pour garantir la qualité du code :
+
+#### Règles en place :
+- 🛡️ **Pull Request obligatoire** : Impossible de push directement sur `main`
+- ✅ **Validation des commits** : Tous les commits doivent respecter la convention
+- 👥 **Review obligatoire** : Au moins 1 approbation requise
+- 🔄 **Branche à jour** : La branche doit être synchronisée avant le merge
+- 💬 **Résolution des commentaires** : Tous les commentaires doivent être résolus
+
+#### Workflow imposé :
+1. Créer une branche de feature
+2. Développer et committer (avec convention)
+3. Ouvrir une Pull Request
+4. ✅ GitHub Actions valide automatiquement les commits
+5. ✅ Review et approbation d'un pair
+6. ✅ Merge possible uniquement si tout est vert
+
+> 📋 **Note pour les administrateurs** : Voir `.github/BRANCH_PROTECTION.md` pour la configuration détaillée
+
 ### Avantages de cette approche
 
 ✅ **Simplicité** : Aucune configuration locale nécessaire  
 ✅ **Sécurité** : Impossible de contourner la vérification  
 ✅ **Universalité** : Fonctionne pour tous les contributeurs  
-✅ **Centralisation** : Toute l'équipe voit les mêmes résultats
+✅ **Centralisation** : Toute l'équipe voit les mêmes résultats  
+✅ **Qualité** : Historique Git propre et cohérent
