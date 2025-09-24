@@ -59,8 +59,3 @@ body:
         - [ ] Documentation mise à jour
     validations:
       required: true
-
-  - type: date
-    id: deadline
-    attributes:
-      label: "📅 Date limite"
