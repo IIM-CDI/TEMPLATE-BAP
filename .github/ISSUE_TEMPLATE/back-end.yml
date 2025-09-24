@@ -48,35 +48,6 @@ body:
       label: "📊 Story Points"
       placeholder: "Ex: 8"
 
-  - type: dropdown
-    id: type-tache
-    attributes:
-      label: "🗂️ Type de tâche back-end"
-      options:
-        - "API/Endpoints"
-        - "Base de données"
-        - "Authentification/Sécurité"
-        - "Configuration serveur"
-        - "Intégration externe"
-        - "Performance/Optimisation"
-
-  - type: textarea
-    id: technologies
-    attributes:
-      label: "🛠️ Technologies utilisées"
-      description: "Quelles technologies seront utilisées ?"
-      placeholder: "Node.js, Express, MongoDB, MySQL, Python, Django, etc."
-
-  - type: textarea
-    id: endpoints
-    attributes:
-      label: "🔗 Endpoints/API"
-      description: "Décrivez les endpoints à créer (si applicable)"
-      placeholder: |
-        - GET /api/users
-        - POST /api/auth/login
-        - PUT /api/users/:id
-
   - type: textarea
     id: acceptance-criteria
     attributes:
@@ -85,12 +56,11 @@ body:
         - [ ] Les endpoints répondent correctement
         - [ ] Les données sont validées
         - [ ] Tests unitaires écrits
-        - [ ] Documentation API mise à jour
+        - [ ] Documentation mise à jour
     validations:
       required: true
 
-  - type: input
+  - type: date
     id: deadline
     attributes:
       label: "📅 Date limite"
-      placeholder: "Ex: lundi 30/09/2025"
