@@ -49,20 +49,6 @@ body:
       placeholder: "Ex: 5"
 
   - type: textarea
-    id: maquette
-    attributes:
-      label: "🎨 Maquette/Design"
-      description: "Ajoutez un lien vers la maquette ou décrivez l'apparence souhaitée"
-      placeholder: "Lien Figma, description du design, ou schéma..."
-
-  - type: textarea
-    id: technologies
-    attributes:
-      label: "🛠️ Technologies utilisées"
-      description: "Quelles technologies/frameworks seront utilisés ?"
-      placeholder: "HTML, CSS, JavaScript, React, Vue.js, etc."
-
-  - type: textarea
     id: acceptance-criteria
     attributes:
       label: "✅ Critères d'acceptance"
@@ -73,9 +59,3 @@ body:
         - [ ] Tests utilisateur validés
     validations:
       required: true
-
-  - type: input
-    id: deadline
-    attributes:
-      label: "📅 Date limite"
-      placeholder: "Ex: vendredi 27/09/2025"

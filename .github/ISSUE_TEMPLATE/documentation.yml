@@ -48,38 +48,6 @@ body:
       label: "📊 Story Points"
       placeholder: "Ex: 2"
 
-  - type: dropdown
-    id: type-doc
-    attributes:
-      label: "📋 Type de documentation"
-      options:
-        - "README.md"
-        - "Documentation API"
-        - "Guide utilisateur"
-        - "Documentation technique"
-        - "Commentaires code"
-        - "Guide d'installation"
-        - "Tutoriel"
-
-  - type: textarea
-    id: public-cible
-    attributes:
-      label: "👥 Public cible"
-      description: "À qui s'adresse cette documentation ?"
-      placeholder: "Développeurs, utilisateurs finaux, équipe projet, etc."
-
-  - type: textarea
-    id: contenu
-    attributes:
-      label: "📄 Contenu à couvrir"
-      description: "Quels sujets doivent être abordés ?"
-      placeholder: |
-        - Installation
-        - Configuration
-        - Utilisation
-        - Exemples
-        - FAQ
-
   - type: textarea
     id: acceptance-criteria
     attributes:
@@ -91,9 +59,3 @@ body:
         - [ ] Relecture par l'équipe
     validations:
       required: true
-
-  - type: input
-    id: deadline
-    attributes:
-      label: "📅 Date limite"
-      placeholder: "Ex: mercredi 25/09/2025"

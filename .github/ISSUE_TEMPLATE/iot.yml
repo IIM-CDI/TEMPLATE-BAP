@@ -48,18 +48,6 @@ body:
       label: "📊 Story Points"
       placeholder: "Ex: 5"
 
-  - type: dropdown
-    id: type-iot
-    attributes:
-      label: "🔧 Type de tâche IoT"
-      options:
-        - "Capteurs/Sensors"
-        - "Microcontrôleur (Arduino/Raspberry)"
-        - "Communication (WiFi/Bluetooth/LoRa)"
-        - "Protocoles (MQTT/HTTP/CoAP)"
-        - "Alimentation/Hardware"
-        - "Interface physique"
-
   - type: textarea
     id: materiel
     attributes:
@@ -72,20 +60,6 @@ body:
         - Résistances, breadboard, etc.
 
   - type: textarea
-    id: technologies
-    attributes:
-      label: "💻 Technologies/Langages"
-      description: "Quels langages et outils seront utilisés ?"
-      placeholder: "C++, Python, Arduino IDE, PlatformIO, etc."
-
-  - type: textarea
-    id: schema
-    attributes:
-      label: "⚡ Schéma électronique"
-      description: "Décrivez ou ajoutez un lien vers le schéma de câblage"
-      placeholder: "Lien vers Fritzing, description du câblage, etc."
-
-  - type: textarea
     id: acceptance-criteria
     attributes:
       label: "✅ Critères d'acceptance"
@@ -96,9 +70,3 @@ body:
         - [ ] Tests physiques réalisés
     validations:
       required: true
-
-  - type: input
-    id: deadline
-    attributes:
-      label: "📅 Date limite"
-      placeholder: "Ex: samedi 28/09/2025"
