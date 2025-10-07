@@ -87,18 +87,6 @@ Ce template est votre point de départ pour comprendre et maîtriser :
 - **Validation :** GitHub Actions vérifie automatiquement
 - **Protection :** Impossible de push direct sur main
 
-## 📚 Documentation
-
-- `CONTRIBUTING.md` : Conventions de commits et workflow
-- `EXEMPLES_ISSUES.md` : Templates d'issues par domaine
-- Voir ces fichiers pour les détails complets
-
----
-
-*Template BAP pour étudiants 2ème année code 🦐*
-
----
-
 ## 🛠️ Comment utiliser ce template ?
 
 ### 🚀 Étape 1 : Créer votre projet
@@ -272,9 +260,9 @@ Développer la page de connexion avec design responsive et validation.
 **Branches :**
 
 ```
-feature/nom-de-la-fonctionnalité
-bugfix/description-du-bug
-hotfix/correction-urgente
+feat/nom-de-la-fonctionnalité
+fix/description-du-bug
+chore/correction-urgente
 ```
 
 **Commits (Convention Conventional Commits) :**
@@ -331,7 +319,7 @@ Dans **Settings** → **Branches** → **Add rule** pour `main` :
 
 ---
 
-## 🎨 Convention Conventional Commits
+## 🎨 Conventional Commits
 
 ### Format obligatoire
 
@@ -414,26 +402,6 @@ Chaque PR utilise automatiquement ce template :
 ### Structure
 - **Description** : Changements apportés
 - **Type de changement** : Fix, Feature, Documentation, etc.
-- **Checklist** : Auto-review, tests, documentation
-- **Convention de commits** : Rappel des règles automatiques
-
-### Types de changement
-- 🐛 Fix (correction de bug)
-- ✨ Feature (nouvelle fonctionnalité)
-- 📝 Documentation
-- 🎨 Style (formatage, style de code)
-- ♻️ Refactor (refactorisation)
-- ⚡ Performance
-- ✅ Tests
-- 🔧 Chore (maintenance, configuration)
-
-### Checklist automatique
-- Code suit les conventions de style
-- Auto-review effectué
-- Code commenté dans les parties complexes
-- Documentation mise à jour
-- Aucun warning généré
-- Tests ajoutés et passants
 
 ---
 
@@ -451,5 +419,5 @@ Ces fichiers contiennent tous les détails techniques et exemples concrets pour 
 
 **Happy coding ! 🎉**
 
-*Template BAP créé avec ❤️ pour les étudiants de 2ème année code 🦐*
+*Template BAP créé avec ❤️ pour les étudiants de 2ème année coding 🦐*
 
